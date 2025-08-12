@@ -35,5 +35,5 @@ def download_from_wayback(file_path):
 
 
 if __name__ == "__main__":
-    chemin_du_fichier = r"S:\\saves\\palm\\WaybackIndexer\\urls.txt"
-    download_from_wayback(chemin_du_fichier)
+    url_file_list = r"S:\\saves\\palm\\WaybackIndexer\\urls.txt"
+    download_from_wayback(url_file_list)
