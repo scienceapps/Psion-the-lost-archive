@@ -1,6 +1,6 @@
 A Python-based toolset for extracting URLs from legacy .txt and .zip files, and downloading their archived versions from the Wayback Machine, for recovering Psion Epoc / Sibo software from old CD-ROMs
 
-**Features : **
+#Features : 
 
 - Scans directories for .txt files and .zip archives containing text.
 - Extracts all valid URLs using regular expressions.
@@ -8,15 +8,15 @@ A Python-based toolset for extracting URLs from legacy .txt and .zip files, and 
 - Cleans and formats URLs for compatibility with wayback_machine_downloader.
 - Organizes downloads by domain and timestamp.
 
-2. Extract URLs from legacy files
+#Extract URLs from legacy files
 python extract_urls.py
 This will scan the specified directory and output a list of URLs to a .txt file.
 
-3. Download archived content
+#Download archived content
 python 02-dlfromwayback.py
 This reads the list of URLs and downloads their archived versions from the Wayback Machine.
 
-*Configuration
+#Configuration
 You can modify the following paths and parameters directly in the scripts:
 - input_directory: Folder to scan for .txt and .zip files.
 - output_urls_file: Destination file for extracted URLs.
