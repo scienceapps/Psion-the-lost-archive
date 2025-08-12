@@ -13,7 +13,7 @@ A Python-based toolset for extracting URLs from legacy .txt and .zip files, and 
 This will scan the specified directory and output a list of URLs to a .txt file.
 
 ## Download archived content
-python 02-dlfromwayback.py
+`python 02-dlfromwayback.py`
 This reads the list of URLs and downloads their archived versions from the Wayback Machine.
 
 ## Configuration
