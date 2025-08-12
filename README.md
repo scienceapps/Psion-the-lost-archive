@@ -1,6 +1,6 @@
 A Python-based toolset for extracting URLs from legacy .txt and .zip files, and downloading their archived versions from the Wayback Machine, for recovering Psion Epoc / Sibo software from old CD-ROMs
 
-##Features : 
+## Features : 
 
 - Scans directories for .txt files and .zip archives containing text.
 - Extracts all valid URLs using regular expressions.
