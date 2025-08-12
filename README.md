@@ -27,3 +27,7 @@ You can modify the following paths and parameters directly in the scripts:
 - url_file_list: Input file for archived downloads.
 - --from / --to: Time range for Wayback Machine snapshots.
 - --only: Regex filter for specific file types (e.g., .zip).
+
+## Requirements
+- Python 3.7+
+- wayback_machine_downloader Ruby gem `gem install wayback_machine_downloader`
