@@ -15,10 +15,10 @@ This will scan the specified directory and output a list of URLs to a .txt file.
 python 02-dlfromwayback.py
 This reads the list of URLs and downloads their archived versions from the Wayback Machine.
 
-4. Configuration
+*Configuration
 You can modify the following paths and parameters directly in the scripts:
-input_directory: Folder to scan for .txt and .zip files.
-output_urls_file: Destination file for extracted URLs.
-url_file_list: Input file for archived downloads.
---from / --to: Time range for Wayback Machine snapshots.
---only: Regex filter for specific file types (e.g., .zip).
+- input_directory: Folder to scan for .txt and .zip files.
+- output_urls_file: Destination file for extracted URLs.
+- url_file_list: Input file for archived downloads.
+- --from / --to: Time range for Wayback Machine snapshots.
+- --only: Regex filter for specific file types (e.g., .zip).
